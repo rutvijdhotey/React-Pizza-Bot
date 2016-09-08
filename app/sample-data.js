@@ -3,7 +3,7 @@ module.exports = {
     "Joe's Pizza on Bloor Ave": {
       "orders": [
         {
-          "human": "Rami Sayar",
+          "human": "Rutvij Dhotey",
           "time": new Date(2016, 4, 5, 15, 11, 45, 0),
           "pizzas": [{
             "toppings": "Meat-Lovers",
@@ -14,7 +14,7 @@ module.exports = {
           "status": "In The Oven" // status := Open -> Confirmed -> In The Oven -> Delivered
         },
         {
-          "human": "Jeremy Foster",
+          "human": "Felipe Giraldo",
           "time": new Date(2016, 4, 4, 20, 31, 0, 0),
           "pizzas": [{
             "toppings": ["cheese"],
@@ -31,7 +31,7 @@ module.exports = {
     }
   },
   "humans": {
-    "Rami Sayar" : {
+    "Rutvij Dhotey" : {
       "conversations": [
         {
           "who": "bot",
@@ -67,7 +67,7 @@ module.exports = {
         }
       ]
     },
-    "Jeremy Foster" : {
+    "Felipe Giraldo" : {
       "conversations": [
         {
           "who": "bot",
